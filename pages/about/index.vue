@@ -1,7 +1,5 @@
 <template>
   <section class="container">
-    <h2>
-      Tenzin Namgyal
-    </h2>
+    <h2>Index</h2>
   </section>
 </template>
