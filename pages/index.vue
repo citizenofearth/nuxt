@@ -21,9 +21,11 @@
       </div>
     </div>
   </section>
-</template>
 
-<script>
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+import Card from '~/components/Card.vue'
+import { namespace } from 'vuex-class'
 import Logo from '~/components/Logo.vue'
 
 export default {
