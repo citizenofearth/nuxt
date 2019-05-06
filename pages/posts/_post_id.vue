@@ -1,21 +1,12 @@
 <template>
-  <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        About Page
-      </h1>
-      <nuxt />
-    </div>
-  </section>
+  <h2 class="title">Post #{{ $route.params.post_id }}</h2>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
+  validate({ params }) {
+    // Must be a number
+    return /^\d+$/.test(params.post_id)
   }
 }
 </script>

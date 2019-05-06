@@ -1,24 +1,12 @@
 <template>
   <section class="container">
     <div>
-      <logo />
-      <h1 class="title">
-        About Page
-      </h1>
-      <nuxt />
+      <h2 class="title">
+        Tenzin Namgyal
+      </h2>
     </div>
   </section>
 </template>
-
-<script>
-import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
 
 <style>
 .container {
