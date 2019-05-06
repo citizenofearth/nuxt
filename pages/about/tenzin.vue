@@ -1,7 +1,0 @@
-<template>
-  <section class="container">
-    <h2>
-      Tenzin Namgyal
-    </h2>
-  </section>
-</template>
